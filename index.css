@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+   --gray: #ffffffb3;   
+   --red: #ed1c24;
+   --white: #ffffff;
+}
+.text-color{
+    color: var(--gray);
+}
+.text-white{
+    color: var(--white);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: futurak-Heavy;
+    src: url(font/Futura\ Heavy\ Italic\ font.ttf);
+}
+@font-face {
+    font-family: futurak-bold;
+    src: url(font/Futura\ Bold\ font.ttf);
+}
+@font-face {
+    font-family: apercu;
+    src: url(Apercu-Font-Family/Apercu\ Bold.otf);
+}
+@font-face {
+    font-family: butler;
+    src: url(Butler-Font/Butler_Regular.otf);
+}
+.futurak-family{
+    font-family: futurak-Heavy;
+    font-style: normal;
+    font-weight: 400; 
+    color: var(--white);
+}
+.futurak-family-font{
+    font-family: futurak-Heavy;
+    font-style: normal;
+    font-weight: 400; 
+}
+.butler-family{
+    font-family: butler;
+    color: var(--white);
+}
+.butler-family-font{
+    font-family: butler;
+}
+.poppins-family{
+    font-family: poppins;
+    color: var(--white);
+}
+.poppins-family-gray{
+    font-family: poppins;
+    color: var(--gray);
+    text-decoration: none;
+}
+
+/* Resturant Franchises Button */
+.button-prime{
+    border: 1px solid #ffffff;
+    height: 50px;
+    width: 180px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 6px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Resturant Franchises Branch button */
+.button-click{
+    border: 1px solid #ffffff;
+    height: 50px;
+    width: 180px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 6px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* Promotion Button */
+.promo-btn{
+    border: none;
+    height: 50px;
+    width: 180px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 6px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #28a745;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.franchaise-section{
+    height: 1400px;
+    width: 100%;
+    background-color: #0f0f0f;
+}
+.franchaise-section-2{
+    height: 1700px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Baxkgroung Logo */
+.monogram-1{
+    padding-top: 30px;
+    padding-right: 40px;
+    text-align: end;
+}
+.monogram-2{
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+
+.font-style{
+    color: var(--red);
+    font-family: futurak-Heavy;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    line-height: 50px;
+}
+.font-style-light{
+    color: var(--red);
+    font-family: butler-family;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 0.3em;
+    line-height: 50px;
+}
+.heading{
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    font-size: 32px;
+    margin-top: 90px;
+    text-align: center;
+}
+.font-sizing{
+    font-size: 35px;
+}
+.font-sizing-1{
+    font-size: 22px;
+    line-height: 30px;
+}
+.font-sizing-light{
+    font-size: 18px;
+}
+.font-weight{
+    font-weight: lighter;
+}
+
+
+.tl-center{
+    text-align: center;
+}
+
+.mb-1{
+    margin-left: -100px;
+}
+
+.mt-0{
+    margin-top: -100px;
+}
+
+.ai-start{
+    align-items: flex-start;
+}
+
+.jc-start{
+    justify-content: flex-start;
+}
