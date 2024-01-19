@@ -1,4 +1,8 @@
-
+:root{
+    --gray: #ffffffb3;   
+    --red: #ed1c24;
+    --white: #ffffff;
+ }
 
 .logo{
     margin-top: 5px;
