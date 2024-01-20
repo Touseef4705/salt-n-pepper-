@@ -2,9 +2,9 @@
     --gray: #ffffffb3;   
     --red: #ed1c24;
     --white: #ffffff;
- }
+}
 
- /* navbar */
+/* navbar */
 
 .logo{
     margin-top: 5px;
@@ -149,7 +149,7 @@
 }
 .footer-section{
     width: 100%;
-    height: 505px;
+    height: 509px;
     background-color: #0f0f0f;
 }
 .footer-monogram{

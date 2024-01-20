@@ -114,6 +114,9 @@
     text-align: center;
     padding-top: 12px;
 }
+.feed-button:hover{
+    cursor: pointer;
+}
 
 
 .franchaise-section{
@@ -179,6 +182,7 @@
 }
 .font-sizing-light{
     font-size: 18px;
+    line-height: 40px;
 }
 .font-weight{
     font-weight: lighter;
@@ -213,6 +217,9 @@
 }
 .ml-1{
     margin-left: -90px;
+}
+.ml-2{
+    margin-left: 160px;
 }
 
 .pt-1{
