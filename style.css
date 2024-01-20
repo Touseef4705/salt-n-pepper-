@@ -393,8 +393,9 @@
     border-color: #2524249f transparent transparent transparent;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .footer-bottom > h6{
     font-size: 13px;
+    margin: 0px 100px;
 }
