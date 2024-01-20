@@ -4,6 +4,8 @@
     --white: #ffffff;
  }
 
+ /* navbar */
+
 .logo{
     margin-top: 5px;
     margin-left: 100px;
@@ -36,9 +38,7 @@
     text-decoration: none;
     color: var(--white);
 }
-/* .about-btn{
-    text-decoration: underline;
-} */
+
 
 .icon{
     height: 30px;
@@ -73,144 +73,61 @@
     margin-right: 80px;
 }
 
-/* about dection */
 
-.main-custom-about{
+/* publication section */
+.publication-section{
     width: 100%;
-    height: 4800px;
+    height: 1300px;
     background-color: #000;
 }
-.main-banner-heading {
-    text-align: center;
-    padding-top: 70px;
-}
-.main-banner-heading > p{
-    margin-top: 20px;
-    padding-top: 10px;
-    font-size: 14px;
-    line-height: 20px;
-} 
 
-.main-sub-heading{
-    text-align: center;
-    margin-top: 70px;
-}
-.main-sub-heading > p{
-    margin-top: 20px;
-}
-
-/* resturant card */
-.resturant-card-row-1{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 70px;
-}
-.card-sub-heading > small{
-    font-size: 32px;
-}
-.card-sub-heading > p{
-    margin-top: 30px;
-    font-size: 15px;
-}
-
-.resturant-card-row-2{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 70px;
-}
-.card-sub-heading > small{
-    font-size: 32px;
-}
-.card-sub-heading > p{
-    margin-top: 30px;
-    font-size: 15px;
-}
-
-/* franchaise resturant card */
-.franchaise-resturant-row-1{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 70px;
-}
-.franchaise-resturant-row-2{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-}
-.franchaise-resturant-row-3{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-}
-
-/* Express Card */
-
-.expres-card{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 70px;
-}
-.expres-img > img{
-    border-radius: 5px;
-}
-.expres-text{
-    font-size: 13px;
-    margin-left: -150px;
-}
-.expres-text > p{
-    margin: 10px;
-}
-
-/* Location Card */
-.location-card-row-1{
+.publication-book{
     display: flex;
     justify-content: center;
-    gap: 30px;
-    margin-top: 50px;
+    gap: 50px;
+    padding-top: 50px;
 }
-.location-card-row-2{
-    display: flex;
-    justify-content: flex-start;
-    gap: 30px;
-    margin-top: 50px;
-    margin-left: 120px;
+.publication-book-1{
+    border: 1px solid #524d4d;
+    height: 500px;
+    width: 500px;
 }
-
-.location-card{
+.publication-book-1 > img{
+    height: 450px;
+    width: 500px;
+    text-align: center;
+    padding-top: 50px;
+}
+.publication-book-1 > img:hover{
     height: 480px;
-    width: 350px;
-    background-color: #0f0f0f;
-    border-radius: 6px;
-}
-.location-card-img > img{
-    height: 300px; 
-    width: 320px;
-    border-radius: 6px;
-    margin: 15px;
-}
-.location-card-text{
-    font-size: 14px;
-}
-.location-card-text > span{
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 40px;
+    width: 520px;
+    margin-top:-10px;
+    transition-duration: 0.5s;
 }
 
-/* franchaise card */
-.promotion-card{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+.publication-book-2{
+    border: 1px solid #524d4d;
+    height: 500px;
+    width: 500px;
 }
-.promo-text{
-    margin-left: -130px;
+.publication-book-2 > img{
+    height: 450px;
+    width: 500px;
+    text-align: center;
+    padding-top: 50px;
 }
-.promo-text > h4{
-    margin-bottom: -23px;
+.publication-book-2 > img:hover{
+    height: 480px;
+    width: 520px;
+    margin-top:-10px;
+    transition-duration: 0.5s;
 }
-.promo-text > p{
-    margin-top: 20px;
+
+.available-branch-text{
+    margin-top: 30px;
+}
+.available-branch-text > p{
+    line-height: 30px;
 }
 
 
