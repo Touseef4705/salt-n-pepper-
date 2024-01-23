@@ -1,0 +1,243 @@
+:root{
+    --gray: #ffffffb3;   
+    --red: #ed1c24;
+    --white: #ffffff;
+ }
+
+/* navbar */
+
+.logo{
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+.container-1 {
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: -94px;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: 0px 0px 0.5px 0px;
+    border-color:transparent transparent #1b1919 transparent;
+    border-style: solid; */
+}
+.box {
+    margin: 24px 16px;
+    color: aliceblue;
+    font-size: medium;
+}
+.box:hover{
+    cursor: pointer;
+}
+.box > a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+
+.icon{
+    height: 30px;
+    width: 30px;
+    margin-left: -125px;
+    background-color: #ffffff;
+    padding: 7px 7px;
+    border-radius: 20px;
+    color: #e21c23;
+}
+.top-nav{
+    height: 58px;
+    width: 155px;
+    border: 1px solid var(--white);
+    padding: 17px 21px;
+    border-radius: 50px;
+    margin-right: -8px;
+}
+.order{
+    height: 55px;
+    width: 165px;
+    border: none;
+    padding: 17px 21px;
+    border-radius: 50px;
+    background-color: var(--red);
+}
+.order:hover{
+    background-color: #e21c23;
+    color: aliceblue;
+}
+.online-order{
+    margin-right: 80px;
+}
+
+/* Sub Banner */
+
+.sub-banner{
+    height: 130px;
+    width: 100%;
+    background-color: #0f0f0f;
+}
+.sub-banner > h2{
+    color: #292929;
+    padding-top: 35px;
+}
+
+/* Feature Product */
+.feature-product{
+    width: 100%;
+    height: 7900px;
+    background-color: #000;
+}
+.feature-search-bar > a{
+    margin: 0 10px;
+}
+
+.click-all-product{
+    color: var(--red);
+    text-decoration: underline;
+}
+
+.arrow-left{
+    color: white; 
+    background-color: var(--red);
+    height: 22px;
+    width: 22px;
+    border-radius: 12px;
+    padding-top: 2px;
+}
+.arrow-right{
+    color: white; 
+    background-color: var(--red);
+    height: 22px;
+    width: 22px;
+    border-radius: 12px;
+    padding-top: 2px;
+}
+
+/* soup feature card */
+.soup-card{
+    height: 400px;
+    width: 330px;
+}
+.soup-card > img{
+    height: 225px;
+    width: 320px;
+    padding-left: 10px;
+}
+.feed-button{
+    margin: 0 auto;
+}
+
+.soup-card-row-1{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 70px;
+}
+.soup-card-row-2{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* footer section */
+.footer-data-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -500px;
+}
+.footer-section{
+    width: 100%;
+    height: 509px;
+    background-color: #0f0f0f;
+}
+.footer-monogram{
+    padding-top: 108px;
+    margin-left: 30px;
+    background-position: bottom;
+}
+.footer-logo{
+    height: 60px;
+    width: 130px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.Policy{
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.footer-link-box {
+    margin-top: 95px;
+}
+
+.link{
+    font-size: 18px;
+    line-height: 40px;
+} 
+.link > a{
+    text-decoration: none;
+    color: var(--gray);  
+}
+.contact-box {
+    margin-top: 95px;
+}
+.icons-box{
+    margin-top: 95px;
+}
+
+/* social icon */
+
+.f-icon{
+    color: #ffffff;
+    background-color: #ED1C24;
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    padding: 13px 0 0 14px;
+    margin-top: 15px;
+}
+.inst-icon{
+    color: #ffffff;
+    background-color: #ED1C24;
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    padding: 13px 0 0 13px;
+}
+.twitter-icon{
+    color: #ffffff;
+    background-color: #ED1C24;
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    padding: 13px 0 0 13px;
+}
+.app-store-download{
+    margin: 35px 0 20px 0;
+}
+
+.footer-bottom{
+    height: 50px;
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: transparent;
+    border: 1px 0 0 0;
+    border-style: solid none none none;
+    border-color: #2524249f transparent transparent transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-bottom > h6{
+    font-size: 13px;
+    margin: 0px 100px;
+}

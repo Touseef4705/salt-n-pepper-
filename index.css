@@ -29,6 +29,10 @@
     src: url(Apercu-Font-Family/Apercu\ Bold.otf);
 }
 @font-face {
+    font-family: apercu-light;
+    src: url(Apercu-Font-Family/Apercu\ Light.otf);
+}
+@font-face {
     font-family: butler;
     src: url(Butler-Font/Butler_Regular.otf);
 }
@@ -58,6 +62,9 @@
     font-family: poppins;
     color: var(--gray);
     text-decoration: none;
+}
+.apercu-light-family{
+    font-family: apercu-light;
 }
 
 /* Resturant Franchises Button */
@@ -112,7 +119,7 @@
     border: none;
     border-radius: 50px;
     text-align: center;
-    padding-top: 12px;
+    padding-top: 18px;
 }
 .feed-button:hover{
     cursor: pointer;
@@ -159,6 +166,19 @@
     letter-spacing: 0.3em;
     line-height: 50px;
 }
+.apercu-font-light{
+    color: var(--white);
+    font-family: apercu-light;
+    font-style: normal;
+    word-spacing: 20px;
+}
+.apercu-font-light-1{
+    color: var(--white);
+    font-family: apercu-light;
+    font-style: normal;
+
+}
+
 .heading{
     font-style: normal;
     font-weight: 700;
@@ -196,6 +216,10 @@
     text-align: center;
 }
 
+.d-flex{
+    display: flex;
+}
+
 .mb-1{
     margin-left: -100px;
 }
@@ -225,6 +249,9 @@
 .pt-1{
     padding-top: 50px;
 }
+.pt-3{
+    padding-top: 20px;
+}
 
 
 .ai-start{
@@ -240,4 +267,8 @@
 
 .text-decor{
     text-decoration: none;
+}
+
+.lh-1{
+    line-height: 25px;
 }
