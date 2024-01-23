@@ -10,6 +10,9 @@
 .text-white{
     color: var(--white);
 }
+.white{
+    color: #ffffff;
+}
 
 
 @font-face {
@@ -50,6 +53,10 @@
 .butler-family{
     font-family: butler;
     color: var(--white);
+}
+.butler-family-gray{
+    font-family: butler;
+    color: var(--gray);
 }
 .butler-family-font{
     font-family: butler;
